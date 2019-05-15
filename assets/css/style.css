@@ -1,0 +1,99 @@
+html, body {
+	height: 100%;
+}
+body {
+	background: #90c9c0 center no-repeat fixed url("../images/RPS.png");
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+}
+h1 {
+	padding-top: 20px;
+	font-size: 50px;
+	text-align: center;
+}
+h2 {
+	font-size: 30px;
+}
+#p1name, #p2name {
+	position: relative;
+	width: 65%;
+	margin: auto;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#container {
+	width: 75%;
+	margin: auto;
+	height: 100%;
+}
+#playerInfo, #playerTurn {
+	margin: 15px auto;
+	text-align: center;
+}
+#playingArea {
+	display: flex;
+	justify-content: space-between;
+}
+#player1, #results, #player2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	min-height: 300px;
+	width: 26%;
+	border: 2px solid black;
+	margin: 26px;
+	text-align: center;
+	position: relative;
+}
+#p1choices, #p2choices {
+	min-height: 60%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#p1choices div:hover, #p2choices div:hover {
+	cursor: pointer;
+	background-color: white;
+}
+#playerName {
+	width: 150px;
+	margin-right: 5px;
+}
+#chatbox {
+	width: 90%;
+	min-height: 150px;
+	border: 1px solid black;
+	margin: auto;
+	overflow-y: auto;
+}
+#messageBar {
+	width: 90%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	opacity: 0.7;
+}
+#messageBox {
+	width: 100%;
+}
+#taunt {
+	margin-top: 5px;
+	float: right;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+	#playingArea {
+		flex-direction: column;
+	}
+	#player1, #results, #player2 {
+		width: 100%;
+		margin: 26px 0px;
+		min-height: 100px;
+	}
+}
