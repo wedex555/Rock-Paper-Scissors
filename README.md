@@ -1,5 +1,10 @@
 # Rock Paper Scissors Multiplayer!
 live demo https://wedex555.github.io/Rock-Paper-Scissors/.
+- Basic Rules
+The rules are very simple and probably you remember them from your childhood :
+          ♦ If you choose Rock, you will win against Scissors but lose against Paper.
+          ♦ If you choose Scissors, you will win against Paper but lose against Rock.
+          ♦ If you choose Paper, you will win against Rock but lose against Scissors.
 
 This app is an online version of the game everyone loves...Rock Paper Scissors!
 Technologies include:
